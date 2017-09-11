@@ -45,9 +45,9 @@ th.tablesorter-header:hover {
   margin-bottom: 20px;
 }
 h1 {
-font-size: 20px;
+font-size: 50px;
 text-transform: uppercase;
-width: 40%;
+width: 60%;
 }
 .info-credits {
 margin: 20px;
@@ -61,10 +61,6 @@ width: 40%;
 }
 .row-lower {
   background-color: #ec9d84;
-  border-bottom: 1px solid white;
-}
-.row-order {
-  background-color: #4286f4;
   border-bottom: 1px solid white;
 }
 #gunbot-control {
@@ -89,13 +85,9 @@ td.coin-pair {
 }
 .row-upper td.coin-pair {
   background-color: #74b854
+
 }
 .row-lower td.coin-pair {
   background-color: #d75d36
-}
-.row-order td.coin-pair {
-  background-color: #0061ff
-}
 
-div.chart {width:100%; height:100%;}
-.dygraph-legend {font-size:16px; padding:0 100px; text-align:right;}
+}
