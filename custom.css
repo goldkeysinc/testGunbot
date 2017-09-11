@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+body {
+font-family: "Open Sans", Sans;
+font-size: 12px;
+padding: 0 15px;
+margin: 0;
+}
+.align-left {
+  text-align: left;
+}
+.align-center {
+  text-align: center;
+
+}
+.align-right {
+  text-align: right;
+
+}
+/* TABLESORTER */
+.tablesorter-header {
+  background-repeat: no-repeat;
+  background-position: center right;
+  white-space: normal;
+  cursor: pointer;
+}
+th.tablesorter-header:hover {
+  background-color: #8cabc2;
+  color: white;
+}
+.tablesorter-headerAsc, .tablesorter-headerDesc {
+  color: white;
+  background-color: #5788ab;
+}
+.tablesorter-headerAsc {
+  background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjI8Bya2wnINUMopZAQA7);
+}
+.tablesorter-headerDesc {
+  background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjB+gC+jP2ptn0WskLQA7);
+}
+.tablesorter-header:focus {
+  outline: none;
+}
+#header {
+  display: flex;
+  margin-bottom: 20px;
+}
+h1 {
+font-size: 20px;
+text-transform: uppercase;
+width: 40%;
+}
+.info-credits {
+margin: 20px;
+border: 1px solid #ccc;
+padding: 20px;
+width: 40%;
+}
+.row-upper {
+  background-color: #b9d7ab;
+  border-bottom: 1px solid white;
+}
+.row-lower {
+  background-color: #ec9d84;
+  border-bottom: 1px solid white;
+}
+.row-order {
+  background-color: #4286f4;
+  border-bottom: 1px solid white;
+}
+#gunbot-control {
+clear: both;
+border: none;
+border-collapse: collapse;
+width: 100%;
+}
+#gunbot-control thead tr {
+font-weight: bold;
+background-color: #ededed;
+}
+#gunbot-control tr {
+  border-bottom: 1px solid #ccc;
+
+}
+#gunbot-control td, #gunbot-control th {
+padding: 5px;
+}
+td.coin-pair {
+  font-weight: bold;
+}
+.row-upper td.coin-pair {
+  background-color: #74b854
+}
+.row-lower td.coin-pair {
+  background-color: #d75d36
+}
+.row-order td.coin-pair {
+  background-color: #0061ff
+}
+
+div.chart {width:100%; height:100%;}
+.dygraph-legend {font-size:16px; padding:0 100px; text-align:right;}
